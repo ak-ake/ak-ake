@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ak-ake | Projects - Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">ak-ake</a>
+            <ul class="nav-menu">
+                <li><a href="../../index.html" class="nav-link">Home</a></li>
+                <li><a href="../about/" class="nav-link">About</a></li>
+                <li><a href="../projects/" class="nav-link active">Projects</a></li>
+                <li><a href="../blogs/" class="nav-link">Blog</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Projects Section -->
+    <main class="page-content">
+        <div class="container">
+            <section class="projects-section">
+                <div class="section-header">
+                    <h1 class="section-title">My Projects</h1>
+                    <div class="section-line"></div>
+                    <p class="section-subtitle">A collection of my game development, web development, and application projects.</p>
+                </div>
+                
+                <!-- Project Filters -->
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="game">Game Development</button>
+                    <button class="filter-btn" data-filter="web">Web Development</button>
+                    <button class="filter-btn" data-filter="app">App Development</button>
+                    <button class="filter-btn" data-filter="cli">CLI Tools</button>
+                </div>
+                
+                <!-- Projects Grid -->
+                <div class="projects-grid" id="projects-grid">
+                    <!-- Projects will be loaded dynamically via JavaScript -->
+                </div>
+                
+                <!-- Project Actions -->
+                <div class="project-actions">
+                    <button class="btn btn-primary" id="add-project-btn">
+                        <i class="fas fa-plus"></i> Add New Project (Demo)
+                    </button>
+                    <p class="action-note">Note: In a production environment, projects would be managed through a CMS or database.</p>
+                </div>
+            </section>
+            
+            <!-- Project Modal -->
+            <div class="modal" id="project-modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 id="modal-title">Project Details</h3>
+                        <button class="modal-close" id="modal-close">&times;</button>
+                    </div>
+                    <div class="modal-body" id="modal-body">
+                        <!-- Modal content will be loaded dynamically -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3 class="logo">ak-ake</h3>
+                <p>Building digital experiences with code</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <a href="../../index.html">Home</a>
+                <a href="../about/">About</a>
+                <a href="../projects/">Projects</a>
+                <a href="../blogs/">Blog</a>
+            </div>
+            <div class="footer-social">
+                <h4>Connect</h4>
+                <div class="social-icons">
+                    <a href="https://github.com/ak-ake" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:hello@akake.dev"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 ak-ake. All rights reserved. Built with passion and code.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="../../assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ak-ake | Blog - Developer Portfolio</title>
+    <link rel="stylesheet" href="../../assets/css/styles.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">ak-ake</a>
+            <ul class="nav-menu">
+                <li><a href="../../index.html" class="nav-link">Home</a></li>
+                <li><a href="../about/" class="nav-link">About</a></li>
+                <li><a href="../projects/" class="nav-link">Projects</a></li>
+                <li><a href="../blogs/" class="nav-link active">Blog</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Blog Section -->
+    <main class="page-content">
+        <div class="container">
+            <section class="blog-section">
+                <div class="section-header">
+                    <h1 class="section-title">Developer Blog</h1>
+                    <div class="section-line"></div>
+                    <p class="section-subtitle">Thoughts, tutorials, and insights on game development, web technologies, and coding practices.</p>
+                </div>
+                
+                <!-- Featured Article -->
+                <div class="featured-article">
+                    <div class="featured-image">
+                        <div class="image-overlay">
+                            <span class="category-badge">Game Development</span>
+                        </div>
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <div class="featured-content">
+                        <span class="article-date">March 15, 2023</span>
+                        <h2 class="article-title">Building 2D Games with HTML5 Canvas</h2>
+                        <p class="article-excerpt">Learn how to create engaging 2D games using HTML5 Canvas and vanilla JavaScript without any game engines. This tutorial covers game loops, sprite animation, collision detection, and more.</p>
+                        <div class="article-meta">
+                            <span class="read-time"><i class="far fa-clock"></i> 8 min read</span>
+                            <span class="tags">
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Game Dev</span>
+                                <span class="tag">Canvas</span>
+                            </span>
+                        </div>
+                        <a href="#" class="btn btn-primary read-more">Read Article</a>
+                    </div>
+                </div>
+                
+                <!-- Blog Filters -->
+                <div class="blog-filters">
+                    <button class="filter-btn active" data-filter="all">All Articles</button>
+                    <button class="filter-btn" data-filter="game">Game Development</button>
+                    <button class="filter-btn" data-filter="web">Web Development</button>
+                    <button class="filter-btn" data-filter="tutorial">Tutorials</button>
+                    <button class="filter-btn" data-filter="tips">Tips & Tricks</button>
+                </div>
+                
+                <!-- Blog Grid -->
+                <div class="blog-grid" id="blog-grid">
+                    <!-- Blog posts will be loaded dynamically via JavaScript -->
+                </div>
+                
+                <!-- Load More Button -->
+                <div class="load-more">
+                    <button class="btn btn-secondary" id="load-more-btn">
+                        <i class="fas fa-sync-alt"></i> Load More Articles
+                    </button>
+                    <p class="load-more-note">Showing 6 of 12 articles</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3 class="logo">ak-ake</h3>
+                <p>Building digital experiences with code</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <a href="../../index.html">Home</a>
+                <a href="../about/">About</a>
+                <a href="../projects/">Projects</a>
+                <a href="index.html">Blog</a>
+            </div>
+            <div class="footer-social">
+                <h4>Connect</h4>
+                <div class="social-icons">
+                    <a href="https://github.com/ak-ake" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:hello@akake.dev"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 ak-ake. All rights reserved. Built with passion and code.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="../../assets/js/main.js"></script>
+</body>
+</html>
