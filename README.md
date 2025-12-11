@@ -18,7 +18,7 @@
 
 ## 🚀 **About Me**
 
-I'm **Akib**, a passionate young developer who loves building tools, experimenting with systems, and exploring the world of open source. I believe in writing clean, powerful, Linux‑first applications that push my skills forward every day.
+I'm **Akib**, a passionate young developer who loves building tools, experimenting with systems, and exploring the world of open source. I believe in writing clean, powerful, Linux‑first applications that push my skills forward every day!
 
 🔹 **I build:** mini‑tools, CLI apps, game experiments, and web utilities
 🔹 **I learn:** Python, Node.js, game engines, system tools, and automation
